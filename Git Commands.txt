@@ -1,0 +1,12 @@
+git config --global user.name Saptak
+git config --global user.email "saptaksarkar2001@gmail.com"
+touch .gitignore
+git init
+git add .
+git commit -m "Initial Commit"
+git status
+git remote add origin (git@github.com:Saptak-2001/DanceWebsite.git) --> Link of SSH key of repository in github
+ssh-keygen -t rsa -b 4096 -C "saptaksarkar2001@gmail.com" --> For generating new ssh key and link to profile of github
+cat (/c/Users/SURAJIT/.ssh/id_rsa.pub) --> Path of newly created ssh key in personal computer
+git push origin master
+
