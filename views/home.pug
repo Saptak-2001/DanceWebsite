@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts 
+    script(src='../static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection
+        div Welcome to the Creative Dance Academy 
+        div.small Live, Learn, Dance, Repeat
+    section#missionSection 
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img
+                    img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcDzhs5KG6ZvDISyuQNNEd6Dg-5NLdEUvTVivlmxdklRqRU_6iqNo_nQ2EWdRDeuL7P30&usqp=CAU" alt="Image")
+                div.card-content
+                    p Everyones are forced to dance in front of a mirror every day.
+        div.card
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img
+                    img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUDempEeA9qtDfYSUOXiX2Ia8r593wata-Qxr9th1BqjCmC6wQLj14Fp18YYbbx1ZwWRs&usqp=CAU" alt="Image")
+                div.card-content
+                    p Best Dance Academy
+        div.card
+            h3 Expert Teaching
+            div.card-box 
+                div.card-img
+                    img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWAEVOW5LfzWt3iAonG8CLHaTXaI50mEnOvTFIp5CX9FrdmALqKu5ZwKmarrj0muqclo&usqp=CAU" alt="Image")
+                div.card-content
+                    p  Best Dance Academy
+    section#sponsorSection 
+        h2 Our Sponsors
+        div#sponsors
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDTU28hlktgrdYjQ3epP3DJjxGjqRvs1JjNmxmtl0EVVKKVYn5-LGLrmbS6DEmHBRNAak&usqp=CAU", alt="Sponsor Image", Class="spImage")
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdsXXeJOqtlUvFrmFaFbHxi258jd5INfOrgEZHQjhsXBS837WY-RU0dpbkWCeY3FLiRgQ&usqp=CAU", alt="Sponsor Image", Class="spImage")
+            img(src="https://1000logos.net/wp-content/uploads/2021/08/LIC-Logo.png", alt="Sponsor Image", Class="spImage")
+            img(src="https://upload.wikimedia.org/wikipedia/en/thumb/5/58/State_Bank_of_India_logo.svg/2560px-State_Bank_of_India_logo.svg.png", alt="Sponsor Image", Class="spImage")
